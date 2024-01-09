@@ -1,4 +1,11 @@
+# NLP with Transformers 🤖
 
+This notebook will walk you through a simple way to apply architectures like LSTM and Transformers for natural language processing. The objective of the exercise is to classify a series of sentences into a category belonging to a feeling "sentiment analysis".
+The purpose of this work is to develop models using NLP, capable to classify text input into emotion class based on LSTM and Transformers Architectures to compare its performance on both scenario. The dataset used to test this models contains 20K phrase labeled by emotion:Joy, Anger, Sadness, Fear, Love and suprise.
+
+Our first Task consist in data pre-processing accessing each sentence removing duplicated data and special characters (data cleaning). Once our data is ready to work with, we can proceed with the tokenizing and sequence task in order to convert all the data to numerical representation, which can be feeded to our models for training and testing purposes.
+
+Our first approach is going to be made building an LSTM network, and then two Transformers architecture to test performance
 
 ## Conclusions
 * Pre-processing data stage it's crucial for NLP purpose, because cleaning data before embedding will allow us to perform coding text to its purest form of representation, using NLTK stop words and dropping special characters will do the task for this exercise, but if you are going to work with another kind of dataset which uses special characters for context (like tweets or mentions in social media) can change the way that the machine interpreatates the sentences. Analyze the purpose of your specific task to take this kind of decissions.
